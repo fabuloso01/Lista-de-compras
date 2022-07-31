@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="listacompras.css">
+    <script src="listacompras.js"></script>
+
+    <title>Lista de compras</title>
+</head>
+<body>
+    <div class="card">
+        <h1>Lista de compras</h1>
+
+        <div>
+           <input type="text" placeholder="Insira o item da lista" id="item"/>
+        </div>
+
+        <div>
+            <button onclick="adicionarItem()">Adicionar</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <span id="lista"></span>
+    </div>
+</body>
+</html>
